@@ -1,0 +1,163 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+header{
+	display: flex;
+	background:#0eb143;
+	width: 400px;
+	height: 80px;
+}
+#logo{
+	margin: 10px;
+	height: 50px;
+	width: 50px;
+}
+
+#head{
+	color: white;
+	font-size: 20px;
+	margin-top: 25px;
+
+}
+
+.main-div{
+	display: flex;
+}
+
+.all{
+	overflow-y: scroll;
+	max-width: 400px;
+	max-height: 900px;
+	overflow-x: hidden;
+}
+.person-img{
+	height: 60px;
+	width: 60px;
+	/*background-image: url(images/dp1.jpg);*/
+	background-position: center;
+	background-size: cover;
+	border-radius: 1000px;
+	margin-right: 1em;
+	display: flex;
+}
+
+.detail{
+	display: flex;
+}
+
+.person-item{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid grey;
+	width: 420px;
+}
+#name{
+	margin: 8px;
+}
+#numb{
+	margin: 5px;
+}
+#email{
+	margin: 5px;
+}
+.name{
+	font-weight: bold;
+	display: flex;
+	color: #666a6d;
+}
+.time{
+	text-transform: capitalize;
+	margin-top: 10px;
+	margin-left: 25px;
+	font-size:0.8em; 
+	color: #9a9b9b;                                           
+}
+.msg{
+	margin-top: 0;
+	margin-left: 5px;
+	color: #6b666a;
+}
+
+.after-person-img{
+	margin: 0;
+}
+
+#main-box{
+	text-align: center;
+}
+
+.split {
+	height: 100%;
+	width: 70%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+	text-align: center;
+	justify-content: center;
+	background-image: url(images/bg1.png);
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.status{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+h1{
+	font-size: 2em;
+	color: #666766;
+}
+
+h3{
+	font-size: 2em;
+	color:#666a6d; 
+	text-align: center;
+	justify-content: center;
+}
+
+h4,h5{
+	font-size: 1em;
+	color: #696770;
+}
+
+.icon{
+	align-items: center;
+	justify-content: center;
+}
+
+.person-item:hover{
+	cursor: pointer;
+	background-color: #e9ebeb;
+}
+
+.icon1{
+	display: flex;
+	margin-right: 5px;
+}
+
+i{
+	color: rgb(0,0,0,0.4);
+}
+
+.fa-check-double
+{
+	color: #00ccff;
+}
+
+#show-img{
+	/*background-image: url("images/dp1.jpg");*/	
+	background-size: cover;
+	height: 200px;
+	width: 200px;
+	margin-left: 0px;
+	border-radius: 1000px;
+}
